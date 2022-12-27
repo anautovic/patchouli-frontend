@@ -28,3 +28,14 @@ h2 {
   object-fit: cover;
   }
 }
+.navMenu{
+  padding: 18px 10px;
+align-items:center;
+justify-content: center;
+}
+.navMenu::hover {
+    box-shadow: -2px 0 hsl(125, 71%, 66%);
+    color: hsl(125, 71%, 66%);
+    text-decoration: none
+}
+

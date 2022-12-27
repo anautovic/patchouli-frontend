@@ -70,8 +70,8 @@ const RightNav = ({ open }) => {
      <NavMenuLinks to = '/'> <li>Accueil</li></NavMenuLinks>  
      <NavMenuLinks to ='/services' ><li>Services</li></NavMenuLinks>
      <NavMenuLinks to= 'formation'><li>Formation</li></NavMenuLinks>
-      <NavMenuLinks to= '/maboutique'><li>E-Shop</li></NavMenuLinks> 
-      <NavMenuLinks to = 'gallerie'><li>Galerie</li></NavMenuLinks> 
+     <div className='navMenu' ><li><a href="https://patchoulimegastore.vercel.app">Shop </a></li></div>
+      <NavMenuLinks to = 'gallerie'><li>Galérie</li></NavMenuLinks> 
        
 
       <NavBtn>

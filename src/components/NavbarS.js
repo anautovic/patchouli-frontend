@@ -14,19 +14,28 @@ const Nav = styled.nav`
   .logo {
     padding: 3px 0;
   }
+  
 `
 
 const NavbarS = () => {
   return (
     <Nav>
       <div className="logo">
+      <div style={{position:"position"}}> 
+      <img src="/noel.png" alt='noel' style={{zIndex:'2'}} width="40" height="31" /> 
       <img
         src={Logo_pat}
         width="80"
         height="80"
+        style={{
+          position:'absolute',
+          left:'2rem',
+          zIndex:'-2'
+        }}
         
         alt="patchouli_logo"
       />
+      </div>
       </div>
       <Burger />
     </Nav>

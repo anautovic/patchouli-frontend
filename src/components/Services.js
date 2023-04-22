@@ -46,13 +46,13 @@ border-radius: 20px;
 }
 transition: all .5s ease;
 &:not(:last-child) {
-    margin-right: 5rem;
+    margin-right: 2rem;
     @media only screen and (min-width: 1300px){
-        margin-right: 5rem;
+        margin-right: 2rem;
         width:15rem;
     }
     @media only screen and (min-width: 1500px){
-        margin-right: 5rem;
+        margin-right: 2rem;
         width:15rem;
     }
     @media only screen and (max-width:900px){

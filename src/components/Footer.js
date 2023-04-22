@@ -24,7 +24,7 @@ const Footer = () => {
                             <i className="fas fa-phone"></i>
                             <div className="cta-text">
                                 <h4>Appelez nous</h4>
-                                <span> 699504975 | 690915116 </span>
+                                <span> 699504975 | 676974410 </span>
                             </div>
                         </div>
                     </div>
@@ -96,7 +96,7 @@ const Footer = () => {
                         <div className="footer-menu">
                             <ul>
                                 <li><Link to="/">Accueil</Link></li>
-                                <li><Link to="/maboutique">E-shop</Link></li>
+                                
                                 
                             </ul>
                         </div>

@@ -22,7 +22,7 @@ const NavbarS = () => {
     <Nav>
       <div className="logo">
       <div style={{position:"position"}}> 
-      <img src="/noel.png" alt='noel' style={{zIndex:'2'}} width="40" height="31" /> 
+      
       <img
         src={Logo_pat}
         width="80"

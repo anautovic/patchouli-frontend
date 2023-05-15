@@ -59,14 +59,16 @@ const HeroS = () => {
     return (
        <>
        
-       {windowWidth > 800 ? (<img src="https://res.cloudinary.com/wil/image/upload/v1684073393/Institut_patchouli_slymyc.webp"
+       {/*windowWidth < 800 ? (<img src="https://res.cloudinary.com/wil/image/upload/v1684073393/Institut_patchouli_slymyc.webp"
  className="img-fluid"
  alt="couverture patchouli"></img>):
  (<img src="https://res.cloudinary.com/wil/image/upload/v1684167463/Beige_Minimaliste_Art_Banni%C3%A8re_dkdjoi.webp"
  className="img-fluid"
  alt="couverture patchouli"></img>)
- }
-
+    */}
+<img src="https://res.cloudinary.com/wil/image/upload/v1684073393/Institut_patchouli_slymyc.webp"
+ className="img-fluid"
+ alt="couverture patchouli"></img>
 
 <div className="jumbotron">
 <h1 className="text-justify text-center" data-aos="zoom-in" style = {{

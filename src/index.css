@@ -25,8 +25,8 @@ h2 {
   .img-fluid{
     
   width:100vh;
-  height: 100vh;
-  object-fit:cover ;
+  height: auto;
+  object-fit:contain ;
  
   }
 }

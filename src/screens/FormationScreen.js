@@ -142,7 +142,7 @@ const FormationScreen = () => {
       <div className="row">
         <div className="col-md-4">
           <div className="card mb-4 shadow-sm">
-          <div className="card" style={{width: "12rem"}}>
+          <div className="card" style={{width: "14rem"}}>
   <img src={Imageaccueil2} className="card-img-top" alt="Cosmetologie_flyer" />
  </div>
 
@@ -161,7 +161,7 @@ const FormationScreen = () => {
         </div>
         <div className="col-md-4">
           <div className="card mb-4 shadow-sm">
-          <div className="card" style={{width: "12rem"}}>
+          <div className="card" style={{width: "14rem"}}>
   <img src="https://res.cloudinary.com/wil/image/upload/v1624547771/esthetique_v2kual.jpg"
    className="card-img-top" alt="coiffure_complete_flyer" />
  </div>
@@ -180,7 +180,7 @@ const FormationScreen = () => {
         </div>
         <div className="col-md-4">
           <div className="card mb-4 shadow-sm">
-          <div className="card" style={{width: "12rem"}}>
+          <div className="card" style={{width: "14rem"}}>
   <img src="https://res.cloudinary.com/wil/image/upload/v1624547771/make-up_nbjri1.jpg" className="card-img-top" alt="make-up_flyer" />
  </div>
             <div className="card-body">
@@ -199,7 +199,7 @@ const FormationScreen = () => {
 
         <div className="col-md-4">
           <div className="card mb-4 shadow-sm">
-          <div className="card" style={{width: "12rem"}}>
+          <div className="card" style={{width: "14rem"}}>
   <img src="https://res.cloudinary.com/wil/image/upload/v1624547782/Coiffure_fyi0wh.jpg"
    className="card-img-top" alt="coiffure_flyer" />
  </div>
@@ -218,9 +218,9 @@ const FormationScreen = () => {
         </div>
         <div className="col-md-4">
           <div className="card mb-4 shadow-sm">
-          <div className="card" style={{width: "12rem"}}>
+          <div className="card" style={{width: "14rem"}}>
   <img src="https://res.cloudinary.com/wil/image/upload/v1624547771/coiffure_complete_lsvfu9.jpg" 
-  className="card-img-top" alt="formation_complete_flyer" style={{width:'12rem'}} />
+  className="card-img-top" alt="formation_complete_flyer" style={{width:'14rem'}} />
  </div>
             <div className="card-body">
               
@@ -237,7 +237,7 @@ const FormationScreen = () => {
         </div>
         <div className="col-md-4">
           <div className="card mb-4 shadow-sm">
-          <div className="card" style={{width: "12rem"}}>
+          <div className="card" style={{width: "14rem"}}>
   <img src="https://res.cloudinary.com/wil/image/upload/v1624547771/onglerieform_ortitn.jpg"
    className="card-img-top" alt="Onglerie_flyer" />
  </div>

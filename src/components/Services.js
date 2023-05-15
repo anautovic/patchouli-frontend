@@ -133,7 +133,7 @@ const Services = () => {
             
 
 
-        <div className= "container-fluid">
+        <div className= "mx-5 mb-3">
                     
                     <WorksCardContent data-aos="fade-down">
                         <WorksCard to= '/formation'>

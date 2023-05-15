@@ -39,7 +39,7 @@ export  const Services = [
         price: [ "1000 fcfa", "3000fcfa", "2500fcfa", "10000fcfa", "vernis 2500 fcfa"],
         dateEnd:"",
         alt:"Pose_capsule_gel",
-        image:"https://res.cloudinary.com/wil/image/upload/v1624275918/WhatsApp_Image_2021-06-15_at_11.24.40_zdhact.jpg"
+        image:"https://res.cloudinary.com/wil/image/upload/v1684069728/patchoulinails_hxoxpm.jpg"
 
 
    },
@@ -60,7 +60,7 @@ export  const Services = [
     ], 
     price: [ "5.000 fcfa"," 10000 fcfa", "15000 fcfa", "25000fcfa"],
     alt:"",
-    image:"https://res.cloudinary.com/wil/image/upload/v1624275936/WhatsApp_Image_2021-06-15_at_11.24.44_1_lea0kf.jpg",
+    image:"https://res.cloudinary.com/wil/image/upload/v1684069728/patchspa3_t2rt90.jpg",
     dateEnd:""
 
 
@@ -138,7 +138,7 @@ export  const Services = [
     ], 
     price: [ "1.000 fcfa"," 2.000 fcfa", "10000 fcfa", "15000fcfa"],
     alt:"",
-    image:"https://res.cloudinary.com/wil/image/upload/v1624275936/WhatsApp_Image_2021-06-15_at_11.24.44_1_lea0kf.jpg",
+    image:"https://res.cloudinary.com/wil/image/upload/v1684069728/patchoulipedicure_q7tqnx.jpg",
     dateEnd:""
 
 
@@ -190,7 +190,7 @@ export const ServicesCoif = [
         ], 
         price: [ "5.000 fcfa"," 10000 fcfa", "15000 fcfa", "25000fcfa"],
         alt:"",
-        image:"https://res.cloudinary.com/wil/image/upload/v1624275936/WhatsApp_Image_2021-06-15_at_11.24.44_1_lea0kf.jpg",
+        image:"https://res.cloudinary.com/wil/image/upload/v1684079755/patchoulicoiffure_l6jetw.jpg",
         dateEnd:""
     
     

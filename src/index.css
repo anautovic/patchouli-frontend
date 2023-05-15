@@ -18,14 +18,16 @@ h2 {
 }
 .img-fluid{
   width:100vw;
-  height: 60vh;
+  height: 90vh;
   object-fit: cover;
 }
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:800px) {
   .img-fluid{
-    width:100vw;
-  height: 30vh;
-  object-fit: cover;
+    
+  width:100vh;
+  height: 100vh;
+  object-fit:cover ;
+ 
   }
 }
 .navMenu{

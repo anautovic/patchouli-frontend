@@ -7,6 +7,13 @@ import {Link} from 'react-router-dom'
 import Aos from 'aos'
 import 'aos/dist/aos.css';
 import '../css/formation.css'
+import '../css/service.css'
+import styled from 'styled-components'
+import Imageaccueil from '../images/patchouliaca1.jpg'
+import Imageaccueil1 from '../images/academy_pat.webp'
+import Imageaccueil2 from '../images/cosmetologie.jpeg'
+import { FaAngleDoubleRight } from 'react-icons/fa';
+
 
 
 
@@ -18,6 +25,24 @@ import '../css/formation.css'
 
 
 const FormationScreen = () => {
+  const ImageA= styled.img`
+  height:300px;
+  width:auto;
+  padding:6px;
+  margin:6px;
+  @media only screen and (max-width:424px) {
+  height:120px;
+  width:100px;
+  padding: 2px;
+  margin:2px;
+  };
+   @media only screen and (min-width:1024px) {
+  height:200px;
+  width:200px;
+  padding: 2px;
+  margin:2px;
+  }
+  `;
 
     
     useEffect(() =>{
@@ -60,6 +85,9 @@ const FormationScreen = () => {
     dans: onglerie, make-up, coiffure mixte, cosmétiques, esthétiques.<br></br>
     En plus de la formation nous offrons des stages et des attestations délivrées par l'Etat.
     </p>
+    <br></br>
+    N'hésitez pas à nous contacter si vous avez des questions ou si vous souhaitez en savoir plus sur nos services. 
+    Nous avons hâte de vous voir à l'Institut de Beauté Patchouli!
     <button type="button" className="btns" ><a href="tel:+237 690915116" style= {{
         textDecoration:"none"
         }}>Appelez nous</a>
@@ -69,6 +97,39 @@ const FormationScreen = () => {
       
 </Col>
 </Row>
+
+<div className="row" data-aos="zoom-in">
+                    <div className= "col-md-6 col-lg-6 ">
+                    <p className='mb-auto'>Séance pratique du cours d'esthétique plus précisément manucure dispensé 
+                    par Mme Nken Paulette Rachelle</p>
+                        <h3 className="mb-2 text-center">Nos formations</h3>
+                        <div className='underline'></div>
+                        <div  className="job-desc">
+                <FaAngleDoubleRight className="job-icon"></FaAngleDoubleRight><p>Esthétique (manucure, pédicure) Vous êtes passionnés par le domaine de l’esthétique et plus particulièrement par la beauté des ongles ? Pour transformer cette passion en métier, devenez prothésiste ongulaire ! Afin de travailler dans les meilleurs conditions, 
+                  la prothésiste ongulaire doit s’équiper du matériel nécessaire pour exercer ses missions.</p>
+              </div>
+              <div  className="job-desc">
+                <FaAngleDoubleRight className="job-icon"></FaAngleDoubleRight><p>Cosmétologie : ayant suivi cette formation vous serez chargé
+                   de la création et de la formulation de produits cosmétiques (produits capillaires, produits corporels), que ce soit du maquillage ou des soins du corps. 
+                  </p>
+              </div>
+              <div  className="job-desc">
+                <FaAngleDoubleRight className="job-icon"></FaAngleDoubleRight><p>Make-up</p>
+              </div>
+              <div  className="job-desc">
+                <FaAngleDoubleRight className="job-icon"></FaAngleDoubleRight><p>Coiffures</p>
+              </div>
+                        
+                    </div>
+                    <div className="col-md-6 col-lg-6"
+                     >
+           
+            <ImageA  src={Imageaccueil} alt="acceuil" />
+            <ImageA  src={Imageaccueil1} alt="acceuil" />
+            
+           
+                    </div>
+                    </div>
       </Container>
 
 
@@ -81,8 +142,8 @@ const FormationScreen = () => {
       <div className="row">
         <div className="col-md-4">
           <div className="card mb-4 shadow-sm">
-          <div className="card" style={{width: "18rem"}}>
-  <img src="https://res.cloudinary.com/wil/image/upload/v1624547771/onglerieform_ortitn.jpg" className="card-img-top" alt="Onglerie_flyer" />
+          <div className="card" style={{width: "12rem"}}>
+  <img src={Imageaccueil2} className="card-img-top" alt="Cosmetologie_flyer" />
  </div>
 
             <div className="card-body">
@@ -100,7 +161,7 @@ const FormationScreen = () => {
         </div>
         <div className="col-md-4">
           <div className="card mb-4 shadow-sm">
-          <div className="card" style={{width: "18rem"}}>
+          <div className="card" style={{width: "12rem"}}>
   <img src="https://res.cloudinary.com/wil/image/upload/v1624547771/esthetique_v2kual.jpg"
    className="card-img-top" alt="coiffure_complete_flyer" />
  </div>
@@ -119,7 +180,7 @@ const FormationScreen = () => {
         </div>
         <div className="col-md-4">
           <div className="card mb-4 shadow-sm">
-          <div className="card" style={{width: "18rem"}}>
+          <div className="card" style={{width: "12rem"}}>
   <img src="https://res.cloudinary.com/wil/image/upload/v1624547771/make-up_nbjri1.jpg" className="card-img-top" alt="make-up_flyer" />
  </div>
             <div className="card-body">
@@ -138,7 +199,7 @@ const FormationScreen = () => {
 
         <div className="col-md-4">
           <div className="card mb-4 shadow-sm">
-          <div className="card" style={{width: "18rem"}}>
+          <div className="card" style={{width: "12rem"}}>
   <img src="https://res.cloudinary.com/wil/image/upload/v1624547782/Coiffure_fyi0wh.jpg"
    className="card-img-top" alt="coiffure_flyer" />
  </div>
@@ -157,9 +218,9 @@ const FormationScreen = () => {
         </div>
         <div className="col-md-4">
           <div className="card mb-4 shadow-sm">
-          <div className="card" style={{width: "18rem"}}>
+          <div className="card" style={{width: "12rem"}}>
   <img src="https://res.cloudinary.com/wil/image/upload/v1624547771/coiffure_complete_lsvfu9.jpg" 
-  className="card-img-top" alt="formation_complete_flyer" style={{width:'17rem'}} />
+  className="card-img-top" alt="formation_complete_flyer" style={{width:'12rem'}} />
  </div>
             <div className="card-body">
               
@@ -176,7 +237,7 @@ const FormationScreen = () => {
         </div>
         <div className="col-md-4">
           <div className="card mb-4 shadow-sm">
-          <div className="card" style={{width: "18rem"}}>
+          <div className="card" style={{width: "12rem"}}>
   <img src="https://res.cloudinary.com/wil/image/upload/v1624547771/onglerieform_ortitn.jpg"
    className="card-img-top" alt="Onglerie_flyer" />
  </div>

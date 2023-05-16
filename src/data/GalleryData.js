@@ -1,5 +1,6 @@
 const menu = [
-    {
+
+   {
         id: 40,
         category: 'realisation',
         alt: 'produit',
@@ -78,12 +79,7 @@ const menu = [
         alt: 'photo mariage',
         img: 'https://res.cloudinary.com/wil/image/upload/v1625843004/WhatsApp_Image_2021-07-09_at_11.05.38_1_fpssgc.jpg',
     },
-    {
-        id: 53,
-        category: 'realisation',
-        alt: 'photo mariage',
-        img: 'https://res.cloudinary.com/wil/image/upload/v1625843002/WhatsApp_Image_2021-07-09_at_11.05.36_1_vg5qez.jpg',
-    },
+   
     {
         id: 54,
         category: 'realisation',
@@ -168,12 +164,7 @@ const menu = [
         alt: 'realisation patchouli',
         img: 'https://res.cloudinary.com/wil/image/upload/v1624790693/IMG-20210615-WA0006_aiicsj.jpg',
     },
-        {
-        id: 68,
-        category: 'realisation',
-        alt: 'realisation patchouli',
-        img: 'https://res.cloudinary.com/wil/image/upload/v1624790694/IMG-20210608-WA0021_d7awqw.jpg',
-    },
+        
     {
         id: 69,
         category: 'realisation',
@@ -299,12 +290,7 @@ const menu = [
                               alt: 'apprenants',
                               img: 'https://res.cloudinary.com/wil/image/upload/v1624790696/IMG-20210613-WA0027_fbtsjj.jpg',
                           },
-                          {
-                              id: 19,
-                              category: 'staff',
-                              alt: 'apprenants',
-                              img: 'https://res.cloudinary.com/wil/image/upload/v1624790697/IMG-20210615-WA0010_rg0lo6.jpg',
-                          },
+                         
                           {
                               id: 20,
                               category: 'staff',
@@ -392,12 +378,7 @@ const menu = [
                             alt: 'fomaric',
                             img: 'https://res.cloudinary.com/wil/image/upload/v1624790696/IMG-20210613-WA0039_bobvij.jpg',
                         },
-                        {
-                            id: 35,
-                            category: 'événement',
-                            alt: 'promotrice',
-                            img: 'https://res.cloudinary.com/wil/image/upload/v1624797231/IMG-20210613-WA0036_knzwde.jpg',
-                        },
+                       
                         {
                             id: 36,
                             category: 'realisation',
